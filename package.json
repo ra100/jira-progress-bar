@@ -1,0 +1,19 @@
+{
+  "name": "jira-progress-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "open inidex.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ra100/jira-progress-bar.git"
+  },
+  "author": "ra100",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ra100/jira-progress-bar/issues"
+  },
+  "homepage": "https://github.com/ra100/jira-progress-bar#readme"
+}

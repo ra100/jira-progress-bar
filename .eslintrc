@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures" : {
+      "spread": true,
+      "blockBindings": true,
+      "destructuring": true,
+      "templateStrings": true,
+      "generators": true,
+      "defaultParams": true,
+      "modules": true,
+      "arrowFunctions": true,
+      "forOf": true,
+      "classes": true
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "extends": "standard",
+  "rules": {
+    "arrow-parens": 0,
+    "generator-star-spacing": 0,
+    "comma-dangle": ["error", "never"],
+    "semi": ["error", "never"]
+  }
+}
