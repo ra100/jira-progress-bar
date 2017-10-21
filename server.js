@@ -22,7 +22,7 @@ app.use('/api/search', (req, res) => {
   req.pipe(request(options)).pipe(res)
 })
 
-app.use(express.static('build'))
+app.use(express.static('dist'))
 
 app.listen(port)
 
