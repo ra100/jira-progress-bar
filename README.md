@@ -16,7 +16,7 @@ npm run build
 npm run server
 ```
 
-Open http://localhost:8081/dist
+Open http://localhost:8081/
 
 ## Development
 
